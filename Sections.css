@@ -1,0 +1,431 @@
+ul{
+  list-style-type: none;
+  padding: 0%;
+}
+a , a:hover{
+  color: black;
+}
+.p-x-6{
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+.m-x-6 {
+  margin-left: 6vw;
+  margin-right: 6vw;
+}
+.m-b-6{
+  padding-bottom: 6vw;
+}
+.m-x-15{
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+.digi-bg-primary{
+  background-color: #f5f5f5;
+}
+.suggestions {
+  
+  padding: 6vw;
+  padding-left: 0px;
+}
+.most-recently {
+  padding: 6vw;
+  padding-left: 0px;
+}
+#incredible-suggestion-btn {
+  position: absolute;
+  bottom: 8.7vw;
+}
+/* #most-visited-recently-showall-btn,
+#recent-bestsellers-showall-bt
+,#the-most-recent-showall-btn
+,#your-recent-visits-showall-btn {
+  position: absolute;
+  bottom: 7.5vw;
+} */
+.most-recently-showall-btn {
+  position: absolute;
+  bottom: 7.5vw;
+}
+#icredible-suggestion-brand,
+.most-recently-header {
+  position: absolute;
+  top: 1vw;
+}
+#visual-category-menu{
+  padding-top: 1.5vw;
+  /* padding-bottom: 3vw; */
+}
+#visual-category-menu ul{
+  font-size: 1.8vw;
+  margin: 0%;
+}
+#visual-category-menu .tab-item{
+  padding: 0.7vw;
+  padding-left: 1.2vw;
+  padding-right: 1.2vw;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+#visual-category-menu .tab-item.active{
+  border-bottom: solid 4px black;
+}
+
+#visual-category-menu #show-visual-category-menu{
+  border-top: solid 1px white;
+  width: 100%;
+  height: 45vw;
+  padding-top: 3vw;
+  position: relative;
+}
+#visual-category-menu #show-visual-category-menu .image{
+  position: relative;
+  overflow: hidden;
+}
+#visual-category-menu #show-visual-category-menu img{
+  transition: 1s;
+}
+#visual-category-menu #show-visual-category-menu img:hover{
+  transform: scale(1.02);
+}
+#visual-category-menu #show-visual-category-menu .category-label{
+  position: absolute;
+  z-index: 1;
+  bottom: 0vw;
+  right: 0vw;
+  padding: 0.5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1.5vw;
+  color: #7b7b7b;
+}
+/* #visual-category-menu #show-visual-category-menu .image::hover{
+  color: black;
+} */
+#visual-category-menu #show-visual-category-menu #visual-category-menu-men{
+  position: absolute;
+  z-index: 1;
+}
+#visual-category-menu #show-visual-category-menu #visual-category-menu-women{
+  position: absolute;
+  z-index: 2;
+}
+#visual-category-menu #show-visual-category-menu #visual-category-menu-children{
+  position: absolute;
+  z-index: 3;
+}
+#visual-category-menu #show-visual-category-menu #visual-category-menu-health-beauty{
+  position: absolute;
+  z-index: 4;
+}
+#visual-category-menu #show-visual-category-menu .show-visual-category-menu{
+  visibility: hidden;
+}
+#visual-category-menu #show-visual-category-menu .active{
+  visibility: visible;
+}
+#visual-category-menu #show-visual-category-menu .top-img{
+  width: 100%;
+  /* margin-bottom: 3vw; */
+  /* overflow: hidden; */
+}
+#visual-category-menu #show-visual-category-menu .bottom-img{
+  height: 16.45vw;
+  /* margin-bottom: 3vw; */
+}
+#visual-category-menu #show-visual-category-menu .bottom-img-4{
+  width: 19.75vw;
+}
+#visual-category-menu #show-visual-category-menu .bottom-img-3{
+  width: 27.33vw;
+}
+#visual-category-menu #show-visual-category-menu .bottom-img-2{
+  width: 42.5vw;
+}
+#visual-category-menu #show-visual-category-menu .vertical-gutter{
+  width: 3vw;
+}
+#visual-category-menu #show-visual-category-menu .horizontal-gutter{
+  height: 3vw;
+}
+/* #the-most-popular-brands{} */
+.the-most-popular-brands,
+#new-arrival,
+#health-and-beauty {
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+.the-most-popular-brands.brand-samples {
+  position: absolute;
+  z-index: 1;
+  margin-top: 3vw;
+  width: 100%;
+}
+.the-most-popular-brands.brand-samples .brand-img {
+  height: 5vw;
+  width: 5vw;
+  position: absolute;
+  /* top: 50%; */
+  left: 45%;
+}
+.the-most-popular-brands.brand-samples .show-all-link {
+  position: absolute;
+  left: 25%;
+  top: 22%;
+}
+.stripy {
+  position: relative;
+}
+.stripy .primary {
+  height: 16vw;
+  background-color: #eaeaea;
+}
+.stripy .white {
+  height: 27vw;
+}
+.link,
+.link:hover {
+  color: black;
+}
+#week-style {
+  position: relative;
+}
+#week-style #background-border {
+  border: solid black 1px;
+  margin: 9vw;
+  margin-top: 6vw;
+  margin-bottom: 0vw;
+  height: 57.5vw;
+}
+#week-style #week-style-header {
+  position: absolute;
+  z-index: 2;
+  margin: 6vw;
+  margin-bottom: 5vw;
+  margin-top: 1.5vw;
+  background-color: white;
+  width: 88%;
+}
+#week-style #week-style-body {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+#week-style #week-style-body #style-img {
+  margin-left: 4vw;
+  margin-top: 8vw;
+  margin-right: 6vw;
+  width: 31vw;
+}
+/* #new-arrival,#health-and-beauty{
+  padding-left: 6vw;
+  padding-right: 6vw;
+} */
+.new-arrival {
+  width: 42vw;
+}
+/* #health-and-beauty{
+  padding-left: 6vw;
+  padding-right: 6vw;
+} */
+.health-and-beauty {
+  width: 20.7vw;
+}
+#iranian-designers,
+#digiStyle-in-digiMag,
+#gift-cards {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  margin-bottom: 6vw;
+}
+#iranian-designers #designers-list {
+  width: 24vw;
+}
+
+#iranian-designers #designers-list ul {
+  width: fit-content;
+  line-height: 3.5vw;
+  font-size: 1.3vw;
+}
+#iranian-designers #designers-list a,
+#iranian-designers #designers-list a:hover {
+  color: #9d9d9d;
+}
+#iranian-designers #designers-list .selected {
+  font-size: 1.8vw;
+  color: black;
+}
+#iranian-designers #designer-style {
+  width: 41.5vw;
+  margin-left: 3.5vw;
+  margin-bottom: 3.5vw;
+}
+#iranian-designers .iranian-designers-product-sample {
+  width: 19vw;
+  height: 25.8vw;
+  background-color: #f5f5f5;
+}
+#iranian-designers img {
+  width: 19vw;
+}
+#offs {
+  width: 100%;
+}
+#offs #women-sandals {
+  width: 33vw;
+  height: 33.5vw;
+  margin-bottom: 0.35vw;
+  margin-left: 0.35vw;
+}
+#offs #sport-shoes {
+  width: 33vw;
+  height: 16.5vw;
+  margin-left: 0.35vw;
+}
+#offs #women-blouses {
+  width: 66.65vw;
+  height: 27.7vw;
+  margin-bottom: 0.35vw;
+}
+#offs #children-clothes {
+  width: 21.8vw;
+  margin-left: 0.35vw;
+  height: 22.3vw;
+}
+#offs #glasses {
+  width: 44.5vw;
+  height: 22.3vw;
+}
+#digiStyle-in-digiMag .digiMag-card {
+  padding: 1.2vw;
+  height: 28vw;
+}
+#digiStyle-in-digiMag .digiMag-card:hover {
+  border: solid black 1px;
+}
+#digiStyle-in-digiMag .digiMag-card img,
+#digiStyle-in-digiMag .digiMag-card h6,
+#digiStyle-in-digiMag .digiMag-card p {
+  width: 17vw;
+}
+#digiStyle-in-digiMag .digiMag-card img {
+  margin-bottom: 2vw;
+}
+#digiStyle-in-digiMag .digiMag-card h6 {
+  color: black;
+}
+#digiStyle-in-digiMag .digiMag-card h6,
+#digiStyle-in-digiMag .digiMag-card p {
+  line-height: 2vw;
+}
+#digiStyle-in-digiMag .digiMag-card p {
+  font-size: 1.05vw;
+  color: #262626;
+  overflow: hidden;
+  max-height: 6vw;
+  position: relative;
+}
+#digiStyle-in-digiMag .digiMag-card p::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  /* height: 24px; */
+  height: 1.2vw;
+  background: linear-gradient(0deg, #fff, hsla(0, 0%, 100%, 0)) !important;
+}
+#gift-cards img {
+  width: 87vw;
+}
+
+#footer-menu-lists h6 {
+  font-size: 1.6vw;
+  /* font-weight: bold; */
+  color: black;
+  line-height: 2.7vw;
+}
+#footer-menu-lists ul {
+  width: fit-content;
+  list-style-type: none;
+  line-height: 2.5vw;
+  font-size: 1.2vw;
+  padding: 0%;
+}
+#footer-menu-lists li {
+  width: fit-content;
+}
+#footer-menu-lists a {
+  color: black;
+}
+#footer-menu-lists li:hover {
+  border-bottom: solid black 1px;
+}
+#footer-delivery h4{
+  color: #434343;
+  font-size: 1.6vw;
+}
+#DIGISTYLE-footer #footer-logo-line{
+  border-bottom: solid  #f0f0f1 1px;
+  width: 80vw;
+  height: 2.35vw;
+  margin-right: 0.8vw;
+}
+#DIGISTYLE-footer h6{
+  font-size: 1.2vw;
+  
+  /* font-weight: 550; */
+}
+#DIGISTYLE-footer ul {
+  width: fit-content;
+  list-style-type: none;
+  line-height: 2.4vw;
+  font-size: 1.05vw;
+ padding: 0vw;
+}
+#DIGISTYLE-footer ul a{
+  color: #81858b;
+}
+
+#DIGISTYLE-footer #get-digi-app img {
+  width: 10vw;
+  margin-right: 0.7vw;
+  margin-bottom: 0.9vw;
+}
+#DIGISTYLE-footer #get-digi-app h6 {
+  /* margin-bottom: 0vw; */
+  /* height: 1vw; */
+  /* line-height: 0.5vw; */
+}
+#about-digiStyle {
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+#about-digiStyle .footer-trust-symbol {
+  border: 1px solid #f0f0f1;
+  width: 10.5vw;
+  height: 9.5vw;
+}
+#about-digiStyle p {
+  max-height: 5.7vw;
+  overflow: hidden;
+  color: #81858b;
+  font-size: 1.05vw;
+  line-height: 1.7vw;
+}
+#about-digiStyle .link {
+  font-size: 0.95vw;
+}
+#copyright {
+  padding-top: 0.9vw;
+  line-height: 0.8vw;
+}
+#copyright p {
+  color: #81858b;
+  font-weight: 500;
+  font-size: 1.05vw;
+}
+

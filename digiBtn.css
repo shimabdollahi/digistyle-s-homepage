@@ -1,0 +1,24 @@
+.digiBtn{
+    padding: 8px 18px 8px 18px; 
+    transition: 0.3s;   
+}
+.digiBtn-suggestion{
+    background-color: #f04d7d;
+    color: #fff;
+    border: solid 1px #f04d7d;
+}
+.digiBtn-suggestion:hover{
+    background-color: #fff;
+    color: #f04d7d;
+    
+}
+.digiBtn-primary{
+    background-color: #fff;
+    color: #000;
+    border: solid 1px #000;
+}
+.digiBtn-primary:hover{
+    background-color: #000;
+    color: #fff;
+    
+}

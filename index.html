@@ -1,0 +1,3162 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-+qdLaIRZfNu4cVPK/PxJJEy0B0f3Ugv8i482AKY7gwXwhaCroABd086ybrVKTa0q"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/c731de6040.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./Sections.css" />
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./productCard.css" />
+    <link rel="stylesheet" href="./suggestion-productCard.css" />
+    <link rel="stylesheet" href="./digiBtn.css" />
+    <link rel="stylesheet" href="./SwippingContainer.css" />
+    <link rel="stylesheet" href="./navbar-menu.css" />
+    <title>Digi Style</title>
+  </head>
+  <body>
+    <header class="digi-header">
+      <div class="row mt-3">
+        <div
+          class="col-md-4 pb-3 d-flex justify-content-center align-items-center"
+        >
+          <div class="me-3 position-relative d-flex align-items-center">
+            <div class="c-header__notif">0</div>
+            <svg
+              enable-background="new 0 0 48 48"
+              height="20px"
+              id="Layer_1"
+              version="1.1"
+              viewBox="0 0 48 48"
+              width="23px"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M43,46H5c-2.209,0-4-1.791-4-4l4-24c0.678-3.442,2.668-4,4.877-4h2.652  C14.037,7.052,18.602,2,24,2s9.963,5.052,11.471,12h2.652c2.209,0,4.199,0.558,4.877,4l4,24C47,44.209,45.209,46,43,46z M24,4  c-4.352,0-8.045,4.178-9.418,10h18.837C32.045,8.178,28.353,4,24,4z M41,18c-0.308-1.351-0.957-2-2.37-2h-2.828  C35.925,16.976,36,17.975,36,19c0,0.552-0.447,1-1,1s-1-0.448-1-1c0-1.027-0.069-2.031-0.201-3H14.201C14.07,16.969,14,17.973,14,19  c0,0.552-0.447,1-1,1s-1-0.448-1-1c0-1.025,0.075-2.024,0.197-3H9.369C7.957,16,7.309,16.649,7,18L3,42c0,1.104,0.896,2,2,2h38  c1.104,0,2-0.896,2-2L41,18z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <a
+            id="enter-link"
+            href="#"
+            class="ms-2"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            title="مشاهده حساب کاربری"
+            >وارد شوید</a
+          >
+        </div>
+        <div class="col-md-4 pb-3 digistyle d-flex justify-content-center">
+          <h1 id="digi-brand">DIGISTYLE</h1>
+        </div>
+        <div class="col-md-4 pb-3 d-flex justify-content-end align-items-end">
+          <div class="header-search">
+            <svg
+              width="16"
+              height="16"
+              data-name="Layer 1"
+              id="Layer_1"
+              viewBox="0 0 48 48"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: none;
+                    stroke: #231f20;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 2px;
+                  }
+                </style>
+              </defs>
+              <title />
+              <ellipse
+                class="cls-1"
+                cx="19.55"
+                cy="19.5"
+                rx="18.55"
+                ry="18.5"
+              />
+              <line class="cls-1" x1="47" x2="32.96" y1="47" y2="33" />
+            </svg>
+            <input
+              class="search-input ms-1 me-3"
+              id="search-products"
+              type="text"
+              name="search-input"
+              placeholder="جستجوی محصولات از ۱۷۲۰ برند"
+            />
+          </div>
+        </div>
+      </div>
+      <nav class="row mt-2">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="nav-link-forWomen">زنانه</a>
+            <i
+              class="fa-solid fa-caret-up nav-link-caretUp nav-link-menu-forWomen"
+              id="nav-link-caret-up-forWomen"
+            ></i>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="nav-link-forMen">مردانه</a>
+            <i
+              class="fa-solid fa-caret-up nav-link-caretUp nav-link-menu-forMen"
+              id="nav-link-caret-up-forMen"
+            ></i>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="nav-link-forChildren">بچگانه</a>
+            <i
+              class="fa-solid fa-caret-up nav-link-caretUp nav-link-menu-forChildren"
+              id="nav-link-caret-up-forChildren"
+            ></i>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link-health-beauty">زیبایی و سلامت</a>
+            <i
+              class="fa-solid fa-caret-up nav-link-caretUp nav-link-menu-healthBeauty"
+              id="nav-link-caret-up-health-beauty"
+            ></i>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="off" href="#">حراج استایل</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link-brands">برندها</a>
+            <i
+              class="fa-solid fa-caret-up nav-link-caretUp nav-link-menu-brands"
+              id="nav-link-caret-up-brands"
+            ></i>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">خانه ساعت</a>
+          </li>
+        </ul>
+      </nav>
+      <menu id="header-nav-menu-contents" >
+        <!-- women menu starts hear  -->
+        <div
+          class="nav-link-menu nav-link-menu-forWomen"
+          id="nav-link-menu-forWomen"
+        >
+          <!-- start of tab titles row  -->
+          <section class="d-flex justify-content-center menu-tabs-list">
+            
+              <!-- start of tab titles -->
+              <div class="d-flex justify-content-center">
+                <div
+                  class=" d-flex align-items-center justify-content-center menu-tab-item active"
+                >
+                  <!-- start of icon  -->
+                  <span class="px-2">
+                    <svg
+                      width="18"
+                      height="18"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 1000 1000"
+                      enable-background="new 0 0 1000 1000"
+                      xml:space="preserve"
+                    >
+                      <metadata>
+                        Svg Vector Icons : http://www.onlinewebfonts.com/icon
+                      </metadata>
+                      <g>
+                        <g
+                          transform="translate(0.000000,511.000000) scale(0.100000,-0.100000)"
+                        >
+                          <path
+                            d="M1516.6,3389.1C624.8,2877.8,96.2,2564.5,100,2547.2c5.8-28.8,793.8-2212.3,803.4-2223.8c3.8-3.8,1059.1,340.2,1214.8,397.9c17.3,5.8,23.1-470.9,23.1-2348.8V-3984h2863.9h2863.9v2356.5c0,1877.9,5.8,2354.6,25,2348.8c153.8-57.7,1209-401.7,1212.9-397.9c3.8,3.8,188.4,509.4,411.3,1122.5c342.1,943.7,401.7,1118.7,376.7,1136c-15.4,11.5-657.4,382.5-1428.1,822.6L7065.7,4204h-517.1h-519l-11.5-109.6c-28.8-319.1-240.3-630.4-534.3-784.2c-313.3-163.4-645.8-163.4-961,1.9c-294.1,155.7-534.3,524.7-536.3,820.7v71.1h-522.8l-524.7-1.9L1516.6,3389.1z M3667.4,3700.5c76.9-219.1,265.2-476.7,457.5-620.8c255.6-194.1,563.2-297.9,880.3-297.9c317.1,0,624.7,103.8,880.3,297.9c192.2,144.2,380.6,401.7,457.4,620.8l36.5,100H6662h284.5l1230.1-703.5c676.6-386.3,1230.1-713.1,1230.1-724.6c1.9-50-547.8-1531.9-567-1531.9c-11.5,0-317.1,100-682.3,221c-365.2,121.1-668.9,221-676.6,221c-9.6,0-15.4-1093.7-15.4-2431.4v-2431.4H5005.2H2544.9V-1149c0,1337.8-5.8,2431.4-15.4,2431.4c-7.7,0-311.4-100-676.6-221c-365.2-121.1-670.8-221-682.3-221c-23.1,0-574.7,1505-563.2,1537.7c3.8,11.5,555.5,336.4,1226.3,720.8l1220.5,699.6h288.3l288.3,1.9L3667.4,3700.5z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                  </span>
+                  <!-- end of icon  -->
+                  لباس
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-center menu-tab-item"
+                >
+                  <!-- start of icon  -->
+                  <span class="px-2">
+                    <svg
+                      width="19"
+                      height="19"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 1000 1000"
+                      enable-background="new 0 0 1000 1000"
+                      xml:space="preserve"
+                    >
+                      <metadata>
+                        Svg Vector Icons : http://www.onlinewebfonts.com/icon
+                      </metadata>
+                      <g>
+                        <path
+                          class="nav-menu-icon"
+                          d="M563.1,123.9c38,0,68.8,31.1,68.8,69.4v28.9h280.9c25.4,0,45.9,28.9,45.9,52.1c0,0,0,109.8,0,179.4c-182.3,47.1-323.2,70.8-462.8,70.8c-139.5,0-277.7-23.5-454.6-70.8c0-67.9,0-179.4,0-179.4c0-24.4,20.5-52.1,45.9-52.1h280.9l0-28.9c0-38.4,30.8-69.4,68.8-69.4H563.1 M414,222.2h172v-11.6c0-25.5-20.5-46.3-45.9-46.3h-80.2c-25.4,0-45.9,20.7-45.9,46.3L414,222.2 M958.6,488.4c0,131.1,0,262.2,0,333.4c0,33.7-20.2,54.3-51.7,54.3c-163.5,0-661.8,0-818.4,0c-32,0-47.2-24.3-47.2-52c0-69.2,0-203.2,0-335.7C185.9,527,305,550.8,419.7,557.8c0,13.7,0,54.1,0,74.5c0,7,4.9,12.2,11.1,12.2c28.8,0,105.8,0,136.5,0c7.3,0,13-5.8,13-13c0-22.2,0-65.7,0-73.8C693.6,550.3,812.9,526.1,958.6,488.4 M536.3,559c8.8,0,15.3,0.8,15.3,10.3v31c0,11.4-9.3,15.5-20.7,15.5H469c-11.4,0-20.7-4.1-20.7-15.5v-31c0-9.6,6.5-10.3,15.4-10.3c1.7,0,3.4,0,5.3,0h61.9C532.8,559,534.6,559,536.3,559 M563.1,92.6H436.9c-54.4,0-98.8,43.9-100.1,98.4H87.2c-45.5,0-77.2,44-77.2,83.4v179.4v24v10.6v335.7c0,49.1,32.3,83.4,78.5,83.4h818.4c48.9,0,83-35.3,83-85.7V488.4V478h0.1v-24.2V274.3c0-39.4-33-83.4-77.2-83.4H663.2C661.9,136.5,617.5,92.6,563.1,92.6L563.1,92.6z"
+                        />
+                      </g>
+                    </svg>
+                  </span>
+                  <!-- end of icon  -->
+                  کیف
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-center menu-tab-item"
+                >
+                  <!-- start of icon  -->
+                  <span class="px-2">
+                    <svg
+                      width="21"
+                      height="21"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 1000 1000"
+                      enable-background="new 0 0 1000 1000"
+                      xml:space="preserve"
+                    >
+                      <metadata>
+                        Svg Vector Icons : http://www.onlinewebfonts.com/icon
+                      </metadata>
+                      <g>
+                        <g
+                          transform="translate(0.000000,263.000000) scale(0.100000,-0.100000)"
+                        >
+                          <path
+                            class="nav-menu-icon"
+                            d="M3985.3,121.6C3699.8,41.2,3510.1-123.6,2897-826.8c-383.2-436.8-613.1-594-898.6-609.3c-178.2-9.6-318.1,23-492.4,116.9c-218.4,115-482.8,429.2-618.9,730c-30.7,69-63.2,122.6-72.8,120.7c-32.6-9.6-218.4-358.3-316.1-588.2c-172.4-410-279.7-787.5-337.2-1197.5c-47.9-333.4-76.6-1103.6-51.7-1404.4c44.1-546.1,147.5-751.1,404.3-806.7c434.9-92,2969.8-283.6,4983.5-375.5c2006.1-90.1,2791.7-47.9,3456.5,189.7c653.4,233.8,986.8,716.6,942.7,1366.1c-34.5,490.5-208.8,634.2-1295.2,1055.7c-640,249.1-806.6,320-1197.5,511.6c-381.3,187.8-758.7,404.3-1120.9,647.6c-229.9,153.3-387,268.2-1040.4,770.2c-404.3,310.4-666.8,427.3-979.1,442.6C4144.3,148.5,4056.1,140.8,3985.3,121.6z M4445.1-271.1c139.9-44.1,258.7-109.2,444.5-245.2l130.3-95.8l-444.5-494.3c-243.3-274-459.8-513.5-479-536.5c-36.4-38.3-36.4-40.2,105.4-166.7l141.8-126.5l475.2,528.8c262.5,291.2,482.8,536.5,488.6,546.1c11.5,17.2,477.1-321.9,477.1-346.8c0-11.5-166.7-193.5-563.3-622.7l-189.7-203.1l130.3-120.7c70.9-65.2,136-120.7,145.6-124.5c7.7-3.8,191.6,185.8,410,421.5c216.5,235.7,398.5,427.3,402.4,427.3c21.1,0,410-251,411.9-266.3c0-7.7-124.5-141.8-277.8-297c-153.3-155.2-277.8-291.2-277.8-300.8c0-11.5,59.4-72.8,132.2-137.9l132.2-118.8l325.7,329.6l325.7,331.5l352.5-172.4c191.6-93.9,352.5-172.4,356.4-174.4c3.8-1.9-231.8-297-523.1-657.2l-528.8-653.4h-703.2c-961.8,0-1806.8,42.2-2992.8,145.6c-730,63.2-2008,205-2021.4,222.3c-1.9,3.8,254.8,308.5,572.9,676.3l576.7,670.6l95.8,11.5c295.1,38.3,536.5,166.7,831.5,446.4c67.1,65.1,258.7,272.1,425.4,463.7c350.6,404.3,498.2,542.2,655.3,620.8C4129-219.4,4266.9-213.7,4445.1-271.1z M921.6-1332.6c136-155.2,431.1-364,590.1-417.7c19.2-5.7-134.1-199.3-494.3-617l-521.2-609.3v132.2c0,329.5,63.2,764.5,160.9,1099.8c57.5,199.3,164.8,496.3,178.2,496.3C841.1-1248.3,879.4-1286.6,921.6-1332.6z M8430.4-2572.3c247.2-95.8,546.1-220.3,666.8-277.8c216.5-103.5,218.4-105.4,182-139.9c-115-113-505.8-266.3-908.2-354.5c-366-80.5-1245.4-191.6-1276.1-159c-9.6,7.7,866,1105.5,881.4,1105.5C7980.1-2397.9,8185.2-2476.5,8430.4-2572.3z M9512.9-3455.5c-36.4-394.7-180.1-599.7-538.4-774.1c-390.9-189.7-973.3-275.9-1860.4-275.9c-1074.9,0-3688.3,141.8-5487.5,298.9c-806.6,69-1017.4,97.7-1057.6,143.7c-30.6,36.4-61.3,189.7-80.5,415.8c-13.4,137.9-34.5,130.3,247.2,90c845-118.8,2389.3-264.4,3602.1-337.2c555.6-32.6,1986.9-44.1,2452.5-19.2c1283.7,69,2145.9,245.3,2605.8,534.6c53.7,34.5,103.5,61.3,113,61.3C9518.7-3317.6,9520.6-3378.9,9512.9-3455.5z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                  </span>
+                  <!-- end of icon  -->
+                  کفش
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-center menu-tab-item"
+                >
+                  <!-- start of icon  -->
+                  <span class="px-2">
+                    <svg
+                      width="16"
+                      height="16"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 1000 1000"
+                      enable-background="new 0 0 1000 1000"
+                      xml:space="preserve"
+                    >
+                      <metadata>
+                        Svg Vector Icons : http://www.onlinewebfonts.com/icon
+                      </metadata>
+                      <g>
+                        <g
+                          transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                        >
+                          <path
+                            class="nav-menu-icon"
+                            d="M558,5004.7c-92-23-254.9-118.8-308.5-184c-28.7-30.7-72.8-105.4-99.6-162.9L100,4552.5V662.2v-3890.3l51.7-185.9c93.9-341.1,272.1-640.1,521.3-873.9c228-212.7,486.8-356.5,793.4-440.8l185.9-51.7h737.8h737.8l185.9,51.7c189.7,51.7,431.2,162.9,588.3,270.2c113.1,76.7,379.4,343,456.1,456.1c109.2,157.1,218.5,398.6,268.3,588.3c47.9,178.2,51.7,212.7,59.4,783.8l7.7,599.8h302.8h302.8l7.7-599.8c7.7-571.1,11.5-605.6,59.4-783.8c90.1-339.2,268.3-638.2,519.4-873.9c228-212.7,486.8-356.5,793.4-440.8l185.9-51.7h737.8h737.8l185.9,51.7c603.7,164.8,1082.8,615.2,1278.2,1197.8c101.6,304.7,97.7,151.4,93.9,4269.7l-5.7,3813.6l-49.8,107.3c-63.2,136.1-166.7,239.6-302.8,302.8l-107.3,49.8h-586.4H8260l-70.9-55.6c-172.5-130.3-164.8-364.1,15.4-498.3c47.9-36.4,86.2-40.2,471.4-49.8c458-9.6,467.6-13.4,563.4-141.8c40.2-51.7,40.2-61.3,46-2646.5l3.8-2594.8l-120.7,57.5c-235.7,109.2-276,113.1-1561.9,113.1c-998.5,0-1195.8-3.8-1320.4-30.7c-291.3-59.4-540.4-216.5-718.7-448.4l-101.6-134.2h-471.4H4523l-99.6,132.2c-170.6,230-425.4,391-716.7,450.4c-124.6,26.8-322,30.7-1320.4,30.7c-1285.9,0-1326.1-3.8-1561.9-113.1l-120.7-57.5l3.8,2594.8c5.7,2585.2,5.7,2594.8,46,2646.5c95.8,128.4,105.4,132.2,561.5,141.8c415.9,9.6,417.8,9.6,484.9,61.3c138,105.4,168.6,291.3,67.1,425.4c-93.9,122.6-120.7,126.5-716.7,124.6C857,5018.1,590.6,5012.4,558,5004.7z M3722-1472.7c120.7-61.3,237.6-176.3,297-298.9c47.9-93.9,47.9-101.6,53.7-691.8c7.7-688-5.7-783.8-132.2-1042.5c-157.1-316.2-482.9-569.2-831.7-642c-191.6-40.2-1245.7-40.2-1437.3,0c-444.6,93.9-814.5,452.3-929.5,902.6c-34.5,130.3-38.3,212.7-38.3,726.3c0,628.6,7.7,693.7,107.3,835.5c70.9,103.5,185.9,191.6,302.8,231.9c90.1,30.7,191.6,32.6,1305.1,28.8l1207.3-3.8L3722-1472.7z M8934.6-1472.7c120.7-61.3,237.6-176.3,297.1-298.9c47.9-93.9,47.9-101.6,53.7-691.8c7.7-688-5.7-783.8-132.2-1042.5c-157.1-316.2-482.9-569.2-831.7-642c-191.6-40.2-1245.7-40.2-1437.3,0c-444.6,93.9-814.5,452.3-929.5,902.6c-34.5,130.3-38.3,212.7-38.3,726.3c0,433.1,5.7,599.8,26.8,665c53.7,184,220.4,352.6,402.4,410.1c61.3,19.2,341.1,24.9,1285.9,21.1l1207.3-3.8L8934.6-1472.7z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                  </span>
+                  <!-- end of icon  -->
+                  اکسسوری
+                </div>
+                <!-- start of sports tab title  -->
+                <div
+                  class="d-flex align-items-center justify-content-center menu-tab-item"
+                >
+                  <!-- start of icon  -->
+                  <span class="px-2">
+                    <svg
+                      width="16"
+                      height="16"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 1000 1000"
+                      enable-background="new 0 0 1000 1000"
+                      xml:space="preserve"
+                    >
+                      <metadata>
+                        Svg Vector Icons : http://www.onlinewebfonts.com/icon
+                      </metadata>
+                      <g>
+                        <g
+                          transform="translate(0.000000,511.000000) scale(0.100000,-0.100000)"
+                        >
+                          <path
+                            class="nav-menu-icon"
+                            d="M2272,4972.5l-45.4-35.6l-2-630.2c-5.9-865.2-71.1-1359.1-258.8-1922.1c-199.5-602.5-503.7-1041-890.9-1286c-79-49.4-152.1-108.6-162-134.3c-31.6-65.2-29.6-5594.3,0-5659.5c11.9-27.7,43.5-59.3,71.1-71.1c67.2-31.6,7964.8-31.6,8032,0c27.7,11.9,59.2,43.5,71.1,71.1c29.6,65.2,31.6,5594.3,0,5659.5c-9.9,25.7-75.1,75.1-142.2,112.6c-379.3,207.4-600.5,444.5-813.9,871.2c-158,314.1-264.7,691.4-337.8,1195.1c-39.5,264.7-51.4,1195.1-21.7,1564.5c15.8,199.5,15.8,203.5-33.6,252.9l-49.4,49.4h-713.1h-713.1l-47.4-49.4l-49.4-47.4v-973.9c0-1078.6-4-1114.1-124.4-1317.6c-130.4-217.3-383.2-383.2-685.5-450.4c-207.4-45.4-638-43.5-809.9,2c-280.5,73.1-487.9,221.3-598.5,422.7c-106.7,195.6-112.6,262.7-112.6,1333.4v983.8l-49.4,47.4l-47.4,49.4h-709.2C2364.8,5010,2315.4,5008,2272,4972.5z M3532.3,3761.5l2-934.4l51.4-160c124.5-391.1,414.8-663.7,831.6-782.3c140.3-39.5,201.5-45.4,533.4-45.4c426.7,0,578.8,29.6,857.3,162c211.4,102.7,442.5,333.8,539.3,539.3c114.6,244.9,116.5,260.8,118.5,1248.5v904.7h497.8h497.8l-17.8-191.6c-23.7-276.6-4-1076.6,35.5-1369c88.9-669.7,262.7-1195.1,533.4-1613.9c142.2-219.3,444.5-519.5,632.1-630.2l138.3-81l5.9-2639.1l4-2641.1H5000H1207.2v2645.1V816.2l114.6,75.1c61.2,41.5,185.7,148.2,274.6,239c446.4,450.4,740.8,1141.8,875.1,2066.3c51.4,349.6,86.9,966,71.1,1256.3l-11.9,241h499.8h499.8L3532.3,3761.5z"
+                          />
+                          <path
+                            d="M3346.6,245.3c-63.2-31.6-94.8-120.5-67.2-191.6C3316.9-35.2,3370.3-47,3725.9-47h325.9v-1511.2c0-1078.6,5.9-1523,21.7-1558.6c51.4-108.6,221.2-108.6,272.6,0c31.6,69.1,31.6,3225.8,0,3293c-11.9,27.7-43.4,59.3-71.1,71.1C4211.8,274.9,3407.8,274.9,3346.6,245.3z"
+                          />
+                          <path
+                            d="M5879.1,249.3c-416.8-86.9-717.1-410.9-756.6-821.8c-9.9-84.9-13.8-535.3-11.8-997.6c3.9-936.3,5.9-956.1,136.3-1173.4c88.9-146.2,148.2-211.4,282.5-298.3c284.5-189.6,647.9-211.4,956.1-55.3c217.3,110.6,416.8,361.5,482,608.4c39.5,146.2,39.5,1892.4,0,2040.6c-43.4,160-110.6,280.5-233.1,410.9C6513.2,199.9,6181.3,310.5,5879.1,249.3z M6333.4-110.3c132.4-69.1,233.1-177.8,298.3-322l53.3-116.6l5.9-821.8c2-450.4-2-879-11.8-952.1c-27.7-227.2-150.1-401-359.5-513.6c-122.5-65.2-399-65.2-533.4,2c-130.4,63.2-246.9,183.7-308.1,314.1l-53.3,112.6l-5.9,896.8c-5.9,985.7-4,1013.4,112.6,1189.2c69.1,102.7,207.4,209.4,325.9,246.9C5985.7-31.3,6212.9-49,6333.4-110.3z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                  </span>
+                  <!-- end of icon  -->
+                  ورزشی
+                </div>
+                <!-- end of sports ta title -->
+              </div>
+              <!-- end of tab titles  -->
+            
+            <!-- end of tab titles row  -->
+          </section>
+          <!-- end of tab titles row -->
+
+          <section class="menu-tab-content d-flex justify-content-center mt-4 pt-3 p-x-6">
+            <!-- tab contents  -->
+            <div class="d-flex justify-content-center">
+              
+                <div class="menu-tab-content-listside" style="background-color: pink;">
+                  
+                  
+                    <a href="#" class="d-flex justify-content-start">
+                      <h6 class="header">خرید لباس زنانه</h6>
+                      <svg
+                        enable-background="new 0 0 32 32"
+                        height="18px"
+                        fill="#212121"
+                        id="Слой_1"
+                        version="1.1"
+                        viewBox="0 0 32 32"
+                        width="32px"
+                        xml:space="preserve"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M11.262,16.714l9.002,8.999  c0.395,0.394,1.035,0.394,1.431,0c0.395-0.394,0.395-1.034,0-1.428L13.407,16l8.287-8.285c0.395-0.394,0.395-1.034,0-1.429  c-0.395-0.394-1.036-0.394-1.431,0l-9.002,8.999C10.872,15.675,10.872,16.325,11.262,16.714z"
+                          fill="#121313"
+                          fill-rule="evenodd"
+                          id="Chevron_Right"
+                        />
+                        <g />
+                        <g />
+                        <g />
+                        <g />
+                        <g />
+                        <g />
+                      </svg>
+                    </a>
+                    <div class="d-flex justify-content-start">
+                      <ul class="list">
+                        <li>
+                          <a href="#" class="list-item">تی‌شرت و پولوشرت</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item"
+                            >لباس راحتی و خواب</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="list-item"
+                            >مانتو، پانچو و رویه</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="list-item"
+                            >مانتو، پانچو و رویه</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="list-item"
+                            >مانتو، پانچو و رویه</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="list-item"
+                            >مانتو، پانچو و رویه</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="list-item"
+                            >مانتو، پانچو و رویه</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="list-item"
+                            >مانتو، پانچو و رویه</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="list-item"
+                            >مانتو، پانچو و رویه</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="list-item"
+                            >مانتو، پانچو و رویه</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="list-item"
+                            >مانتو، پانچو و رویه</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="list-item"
+                            >مانتو، پانچو و رویه</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="list-item"
+                            >مانتو، پانچو و رویه</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="list-item"
+                            >مانتو، پانچو و رویه</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="list-item"
+                            >مانتو، پانچو و رویه</a
+                          >
+                        </li>
+                       
+                        <li>
+                          <a href="#" class="list-item">شومیز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">بلوز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">تاپ</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">شومیز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">شومیز</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list-item">شومیز</a>
+                        </li>
+                        <li></li>
+                        <li>
+                          <a href="#" class="list-item special-offer"
+                            >حراج استایل</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="list-item newest"
+                            >جدیدترین‌ها</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  
+                </div>
+                
+                <div class="">
+                  <h6 class="header images-header">برترین برندهای لباس زنانه</h6>
+                  <div class="menu-tab-content-imagesside">
+                    <div class="row g-3">
+                      <div class="col-sm-6">
+                        <a href="#"
+                          ><img
+                            class="nav-menu-content-brands-img"
+                            src="./img/brands-tab-menu/115c7a22a25f4e76ca2731312ae63b1aa7c9f87b_1651385608.jpg"
+                            alt="brand-Nizel"
+                        /></a>
+                      </div>
+                      <div class="col-sm-6">
+                        <a href="#">
+                          <img
+                            class="nav-menu-content-brands-img"
+                            src="./img/brands-tab-menu/6875335c954f46bb852e229aee4b2f42fbb817cd_1651385564.jpg"
+                            alt="brand-KikiRiki"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-sm-6">
+                        <a href="#">
+                          <img
+                            class="nav-menu-content-brands-img"
+                            src="/img/brands-tab-menu/aacc5476296c1b747f5e4c41944ad1e46b7baee5_1615980149.jpg"
+                            alt="brand-ZBoo"
+                          />
+                        </a>
+                      </div>
+                      <div class="col-sm-6">
+                        <a href="#">
+                          <img
+                            class="nav-menu-content-brands-img"
+                            src="./img/brands-tab-menu/b48937c3f4c6c34251f9093e642c23c1107548da_1638711324.jpg"
+                            alt="brand-Bornos"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                    <a href="#" class="show-all d-flex justify-content-end">
+                      <h6 class="header">
+                        مشاهده تمام برندها
+                      </h6>
+                      <svg
+                        enable-background="new 0 0 32 32"
+                        height="18px"
+                        fill="#212121"
+                        id="Слой_1"
+                        version="1.1"
+                        viewBox="0 0 32 32"
+                        width="32px"
+                        xml:space="preserve"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M11.262,16.714l9.002,8.999  c0.395,0.394,1.035,0.394,1.431,0c0.395-0.394,0.395-1.034,0-1.428L13.407,16l8.287-8.285c0.395-0.394,0.395-1.034,0-1.429  c-0.395-0.394-1.036-0.394-1.431,0l-9.002,8.999C10.872,15.675,10.872,16.325,11.262,16.714z"
+                          fill="#121313"
+                          fill-rule="evenodd"
+                          id="Chevron_Right"
+                        />
+                        <g />
+                        <g />
+                        <g />
+                        <g />
+                        <g />
+                        <g />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              
+            </div>
+          </section>
+        </div>
+        <!-- women menu ends hear -->
+        <!-- men menu starts hear -->
+       
+        <!-- men menu ends hear -->
+        <!-- children menu starts hear -->
+        <div
+          class="nav-link-menu nav-link-menu-forChildren"
+          id="nav-link-menu-forChildren"
+        >
+          نینیا سلااااااام
+        </div>
+        <!-- children menu ends hear -->
+        <!-- beauty&health menu starts hear -->
+        <div
+          class="nav-link-menu nav-link-menu-healthBeauty"
+          id="nav-link-menu-healthBeauty"
+        >
+          زیبـایی و سلامـــت
+        </div>
+        <!-- beauty&health menu ends hear -->
+        <!-- brands menu starts hear -->
+        <div
+          class="nav-link-menu nav-link-menu-brands"
+          id="nav-link-menu-brands"
+        >
+          بـــرندها
+        </div>
+        <!-- brands menu ends hear -->
+      </menu>
+    </header>
+    <div class="d-flex align-items-end">
+      <img
+        src="./img/d1.jpg"
+        alt="carousel-img"
+        class="digi-carousel"
+        id="digi-top-carousel"
+      />
+      <div class="row carousel-driver">
+        <div id="balls" class="col-12 d-flex justify-content-center">
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+        </div>
+        <div class="col-12 d-flex justify-content-center" id="carousel-driver">
+          <svg
+            style="margin-left: 0vw"
+            width="3.7vw"
+            height="3.5vw"
+            enable-background="new 0 0 100 100"
+            id="top-carousel-right-arrow"
+            version="1.1"
+            viewBox="0 0 100 100"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <polygon
+              points="72.2,50.2 48.7,73.7 50.2,75.3 76.4,49.1 50.2,22.9 48.7,24.5 72.2,48 18.5,48 18.5,50.2 "
+            />
+          </svg>
+          <svg
+            style="margin-left: 1vw"
+            width="3.7vw"
+            height="3.5vw"
+            enable-background="new 0 0 100 100"
+            id="top-carousel-left-arrow"
+            version="1.1"
+            viewBox="0 0 100 100"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <polygon
+              points="21.9,50.2 45.5,73.7 44,75.3 17.8,49.1 44,22.9 45.5,24.5 21.9,48 75.7,48 75.7,50.2 "
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="section-separator"></div>
+    <section class="suggestions digi-bg-primary">
+      <div class="row">
+        <div class="col-2 position-relative">
+          <div id="icredible-suggestion-brand">
+            <img
+              src="./img/shegeft angiz.svg"
+              alt="پیـشـنهاد شگفـت آویـز"
+              style="height: 80px"
+            />
+          </div>
+          <div id="incredible-suggestion-btn">
+            <button class="digiBtn digiBtn-suggestion">مشاهده همه</button>
+          </div>
+        </div>
+        <div class="col-10">
+          <!-- start of swipping-container -->
+          <div class="swipping-container d-flex">
+            <div
+              class="swiper-button-arrow sba-left"
+              id="suggestion-swipping-container-sba-left"
+            >
+              <svg
+                width="60"
+                height="60"
+                enable-background="new 0 0 100 100"
+                version="1.1"
+                viewBox="0 0 100 100"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <polygon
+                  points="21.9,50.2 45.5,73.7 44,75.3 17.8,49.1 44,22.9 45.5,24.5 21.9,48 75.7,48 75.7,50.2 "
+                />
+              </svg>
+            </div>
+            <div
+              class="swiper-button-arrow sba-right"
+              id="suggestion-swipping-container-sba-right"
+            >
+              <svg
+                width="60"
+                height="60"
+                enable-background="new 0 0 100 100"
+                version="1.1"
+                viewBox="0 0 100 100"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <polygon
+                  points="72.2,50.2 48.7,73.7 50.2,75.3 76.4,49.1 50.2,22.9 48.7,24.5 72.2,48 18.5,48 18.5,50.2 "
+                />
+              </svg>
+            </div>
+            <!-- cards will fill in here  -->
+
+            <!-- start of incredible-suggestion card -->
+            <div class="incredible-suggestion-card">
+              <!-- start of incredible suggestion header  -->
+              <div
+                class="mb-2 incredible-suggestion-header d-flex justify-content-between align-items-center"
+              >
+                <div class="fw-bold">پیـشــنهاد شگفــــــت آویـــــز</div>
+                <div class="ShegeftAvizTimer"></div>
+              </div>
+              <!-- end of incredible suggestion header  -->
+
+              <!-- start of product card  -->
+              <div class="product-card .width3">
+                <span class="brand">اسپیور</span>
+
+                <div class="image py-5">
+                  <span class="off"><div>۵۱٪</div></span>
+                  <img
+                    src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                    alt="تصویر محصول"
+                  />
+                </div>
+
+                <!-- start of product name & rank -->
+                <div class="d-flex justify-content-between mt-3 row">
+                  <h6 class="name col-10">
+                    کفش پیاده روی پاما کد 01 مدل
+                    SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                  </h6>
+                  <div class="rank d-flex col-2 justify-content-end">
+                    ۴.۴
+                    <i class="fa-regular fa-star ps-1"></i>
+                  </div>
+                </div>
+                <!-- end of of product name & rank -->
+
+                <!-- start of product price  -->
+                <div class="d-flex justify-content-end align-items-center py-1">
+                  <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                  <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                  <div class="ps-1">تومان</div>
+                </div>
+                <!-- end of product price  -->
+              </div>
+              <!-- end of product card  -->
+            </div>
+            <!-- end of incredible-suggestion card -->
+            <!-- start of incredible-suggestion card -->
+            <div class="incredible-suggestion-card">
+              <!-- start of incredible suggestion header  -->
+              <div
+                class="mb-2 incredible-suggestion-header d-flex justify-content-between align-items-center"
+              >
+                <div class="fw-bold">پیـشــنهاد شگفــــــت آویـــــز</div>
+                <div class="ShegeftAvizTimer"></div>
+              </div>
+              <!-- end of incredible suggestion header  -->
+
+              <!-- start of product card  -->
+              <div class="product-card .width3">
+                <span class="brand">اسپیور</span>
+
+                <div class="image py-5">
+                  <span class="off"><div>۵۱٪</div></span>
+                  <img
+                    src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                    alt="تصویر محصول"
+                  />
+                </div>
+
+                <!-- start of product name & rank -->
+                <div class="d-flex justify-content-between mt-3 row">
+                  <h6 class="name col-10">
+                    کفش پیاده روی پاما کد 01 مدل
+                    SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                  </h6>
+                  <div class="rank d-flex col-2 justify-content-end">
+                    ۴.۴
+                    <i class="fa-regular fa-star ps-1"></i>
+                  </div>
+                </div>
+                <!-- end of of product name & rank -->
+
+                <!-- start of product price  -->
+                <div class="d-flex justify-content-end align-items-center py-1">
+                  <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                  <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                  <div class="ps-1">تومان</div>
+                </div>
+                <!-- end of product price  -->
+              </div>
+              <!-- end of product card  -->
+            </div>
+            <!-- end of incredible-suggestion card -->
+            <!-- start of incredible-suggestion card -->
+            <div class="incredible-suggestion-card">
+              <!-- start of incredible suggestion header  -->
+              <div
+                class="mb-2 incredible-suggestion-header d-flex justify-content-between align-items-center"
+              >
+                <div class="fw-bold">پیـشــنهاد شگفــــــت آویـــــز</div>
+                <div class="ShegeftAvizTimer"></div>
+              </div>
+              <!-- end of incredible suggestion header  -->
+
+              <!-- start of product card  -->
+              <div class="product-card .width3">
+                <span class="brand">اسپیور</span>
+
+                <div class="image py-5">
+                  <span class="off"><div>۵۱٪</div></span>
+                  <img
+                    src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                    alt="تصویر محصول"
+                  />
+                </div>
+
+                <!-- start of product name & rank -->
+                <div class="d-flex justify-content-between mt-3 row">
+                  <h6 class="name col-10">
+                    کفش پیاده روی پاما کد 01 مدل
+                    SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                  </h6>
+                  <div class="rank d-flex col-2 justify-content-end">
+                    ۴.۴
+                    <i class="fa-regular fa-star ps-1"></i>
+                  </div>
+                </div>
+                <!-- end of of product name & rank -->
+
+                <!-- start of product price  -->
+                <div class="d-flex justify-content-end align-items-center py-1">
+                  <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                  <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                  <div class="ps-1">تومان</div>
+                </div>
+                <!-- end of product price  -->
+              </div>
+              <!-- end of product card  -->
+            </div>
+            <!-- end of incredible-suggestion card -->
+            <!-- start of incredible-suggestion card -->
+            <div class="incredible-suggestion-card">
+              <!-- start of incredible suggestion header  -->
+              <div
+                class="mb-2 incredible-suggestion-header d-flex justify-content-between align-items-center"
+              >
+                <div class="fw-bold">پیـشــنهاد شگفــــــت آویـــــز</div>
+                <div class="ShegeftAvizTimer"></div>
+              </div>
+              <!-- end of incredible suggestion header  -->
+
+              <!-- start of product card  -->
+              <div class="product-card .width3">
+                <span class="brand">اسپیور</span>
+
+                <div class="image py-5">
+                  <span class="off"><div>۵۱٪</div></span>
+                  <img
+                    src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                    alt="تصویر محصول"
+                  />
+                </div>
+
+                <!-- start of product name & rank -->
+                <div class="d-flex justify-content-between mt-3 row">
+                  <h6 class="name col-10">
+                    کفش پیاده روی پاما کد 01 مدل
+                    SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                  </h6>
+                  <div class="rank d-flex col-2 justify-content-end">
+                    ۴.۴
+                    <i class="fa-regular fa-star ps-1"></i>
+                  </div>
+                </div>
+                <!-- end of of product name & rank -->
+
+                <!-- start of product price  -->
+                <div class="d-flex justify-content-end align-items-center py-1">
+                  <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                  <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                  <div class="ps-1">تومان</div>
+                </div>
+                <!-- end of product price  -->
+              </div>
+              <!-- end of product card  -->
+            </div>
+            <!-- end of incredible-suggestion card -->
+          </div>
+          <!-- end of swipping-container  -->
+        </div>
+      </div>
+    </section>
+    <div class="section-separator"></div>
+    <section id="visual-category-menu" class="digi-bg-primary p-x-6">
+      <nav class="d-flex justify-content-center">
+        <ul class="d-flex">
+          <div class="tab-item active">
+            <li><a href="#visual-category-menu">مردانه</a></li>
+          </div>
+          <div class="tab-item">
+            <li><a href="#visual-category-menu">زنانه</a></li>
+          </div>
+          <div class="tab-item">
+            <li><a href="#visual-category-menu">بچگانه</a></li>
+          </div>
+          <div class="tab-item">
+            <li><a href="#visual-category-menu">زیبایی و سلامت</a></li>
+          </div>
+        </ul>
+      </nav>
+      <div id="show-visual-category-menu">
+        <div
+          class="show-visual-category-menu active"
+          id="visual-category-menu-men"
+        >
+         <div class="image">
+          <a href="#">
+            <img
+              class="top-img"
+              src="./img/category-menu/lebas-mardane.jpg"
+              alt=""
+          /></a>
+          <div class="category-label digi-bg-primary">لباس مردانه</div>
+         </div>
+         <div class="horizontal-gutter"></div>
+          <div class="d-flex">
+            <div class="image"><a href="#"
+              ><img
+                class="bottom-img bottom-img-3"
+                src="./img/category-menu/kafshe-mardane.jpg"
+                alt=""
+            /></a>
+            <div class="category-label digi-bg-primary">کفش مردانه</div></div>
+            <div class="vertical-gutter"></div>
+            <div class="image">
+              <a href="#"
+              ><img
+                class="bottom-img bottom-img-3"
+                src="./img/category-menu/accessory-mardane.jpg"
+                alt=""
+            /></a>
+            <div class="category-label digi-bg-primary">اکسسوری مردانه</div>
+            </div>
+            <div class="vertical-gutter"></div>
+            <div class="image">
+              <a href="#"
+              ><img
+                class="bottom-img bottom-img-3"
+                src="./img/category-menu/varzeshi-mardane.jpg"
+                alt=""
+            /></a>
+            <div class="category-label digi-bg-primary">ورزشی مردانه</div>
+            </div>
+          </div>
+        </div>
+        <div class="show-visual-category-menu" id="visual-category-menu-women">
+          <div class="image">
+            <a href="#"
+            ><img
+              class="top-img"
+              src="./img/category-menu/lebas-zanane.jpg"
+              alt=""
+          /></a>
+          <div class="category-label digi-bg-primary">لباس زنانه</div>
+          </div>
+          <div class="horizontal-gutter"></div>
+          <div class="d-flex">
+           <div class="image">
+            <a href="#"
+            ><img
+              class="bottom-img bottom-img-3 "
+              src="./img/category-menu/kafshe-zanane.jpg"
+              alt=""
+          /></a>
+          <div class="category-label digi-bg-primary">کفش زنانه</div>
+           </div>
+            <div class="vertical-gutter"></div>
+            <div class="image">
+              <a href="#"
+              ><img
+                class="bottom-img bottom-img-3"
+                src="./img/category-menu/accessory-zanane.jpg"
+                alt=""
+            /></a>
+            <div class="category-label digi-bg-primary">اکسسوری زنانه</div>
+            </div>
+            <div class="vertical-gutter"></div>
+            <div class="image">
+              <a href="#"
+              ><img
+                class="bottom-img bottom-img-3"
+                src="./img/category-menu/varzeshi-zanane.jpg"
+                alt=""
+            /></a>
+            <div class="category-label digi-bg-primary">ورزشی زنانه</div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="show-visual-category-menu"
+          id="visual-category-menu-children"
+        >
+          <div class="image">
+            <a href="#"
+            ><img class="top-img" src="./img/category-menu/nozad.jpg" alt=""
+          /></a>
+          <div class="category-label digi-bg-primary">نوزاد</div>
+          </div>
+          <div class="horizontal-gutter"></div>
+          <div class="d-flex">
+            <div class="image">
+              <a href="#"
+              ><img
+                class="bottom-img bottom-img-2"
+                src="./img/category-menu/dokhtarane.jpg"
+                alt=""
+            /></a>
+            <div class="category-label digi-bg-primary">دخترانه</div>
+            </div>
+            <div class="vertical-gutter"></div>
+            <div class="image">
+              <a href="#"
+              ><img
+                class="bottom-img bottom-img-2"
+                src="./img/category-menu/pesarane.jpg"
+                alt=""
+            /></a>
+            <div class="category-label digi-bg-primary">پسرانه</div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="show-visual-category-menu"
+          id="visual-category-menu-health-beauty"
+        >
+          <div class="image">
+            <a href="#"
+            ><img
+              class="top-img"
+              src="./img/category-menu/beauty-and-health.jpg"
+              alt=""
+          /></a>
+          <div class="category-label digi-bg-primary">لوازم آرایشی</div>
+          </div>
+          <div class="horizontal-gutter"></div>
+          <div class="d-flex">
+            <div class="image">
+              <a href="#"
+              ><img
+                class="bottom-img bottom-img-4"
+                src="./img/category-menu/behdashti.jpg"
+                alt=""
+            /></a>
+            <div class="category-label digi-bg-primary">لوازم بهداشتی</div>
+            </div>
+            <div class="vertical-gutter"></div>
+            <div class="image">
+              <a href="#"
+              ><img
+                class="bottom-img bottom-img-4"
+                src="./img/category-menu/barghi.jpg"
+                alt=""
+            /></a>
+            <div class="category-label digi-bg-primary">لوازم شخصی برقی</div>
+            </div>
+            <div class="vertical-gutter"></div>
+            <div class="image">
+              <a href="#"
+              ><img
+                class="bottom-img bottom-img-4"
+                src="./img/category-menu/atr.jpg"
+                alt=""
+            /></a>
+            <div class="category-label digi-bg-primary">عطر و ادکلن</div>
+            </div>
+            <div class="vertical-gutter"></div>
+            <div class="image">
+              <a href="#"
+              ><img
+                class="bottom-img bottom-img-4"
+                src="./img/category-menu/abzar.jpg"
+                alt=""
+            /></a>
+            <div class="category-label digi-bg-primary">ابزار سلامت</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="most-recently">
+      <div class="row">
+        <div class="col-2 position-relative">
+          <div class="most-recently-header">
+            <h4>
+              پربــازدیــد <br />
+              ترین های
+              <br />
+              اخیـــــــــــر
+            </h4>
+          </div>
+          <div
+            id="most-visited-recently-showall-btn"
+            class="most-recently-showall-btn"
+          >
+            <button class="digiBtn digiBtn-primary">مشاهده همه</button>
+          </div>
+        </div>
+        <div class="col-10">
+          <!-- start of row carousel -->
+          <div class="swipping-container d-flex">
+            <div
+              class="swiper-button-arrow sba-left"
+              id="most-visited-recently-swipping-container-sba-left"
+            >
+              <!-- <i class="fa-solid fa-arrow-left row-swipper-arrow"></i> -->
+              <svg
+                width="60"
+                height="60"
+                enable-background="new 0 0 100 100"
+                version="1.1"
+                viewBox="0 0 100 100"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <polygon
+                  points="21.9,50.2 45.5,73.7 44,75.3 17.8,49.1 44,22.9 45.5,24.5 21.9,48 75.7,48 75.7,50.2 "
+                />
+              </svg>
+            </div>
+            <div
+              class="swiper-button-arrow sba-right"
+              id="most-visited-recently-swipping-container-sba-right"
+            >
+              <!-- <i class="fa-solid fa-arrow-right row-swipper-arrow"></i> -->
+              <svg
+                width="60"
+                height="60"
+                enable-background="new 0 0 100 100"
+                version="1.1"
+                viewBox="0 0 100 100"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <polygon
+                  points="72.2,50.2 48.7,73.7 50.2,75.3 76.4,49.1 50.2,22.9 48.7,24.5 72.2,48 18.5,48 18.5,50.2 "
+                />
+              </svg>
+            </div>
+            <!-- start of product card  -->
+            <div class="product-card width4 most-visited-recently-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 most-visited-recently-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 most-visited-recently-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 most-visited-recently-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 most-visited-recently-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+          </div>
+          <!-- end of row carousel  -->
+        </div>
+      </div>
+    </section>
+    <section id="new-arrival" class="d-flex justify-content-between">
+      <a href="#">
+        <img
+          class="new-arrival"
+          src="./img/LC-wikiki.jpg"
+          alt="new arrival LCWikiki"
+        />
+      </a>
+
+      <a href="#">
+        <img class="new-arrival" src="./img/sonata.jpg" alt="Sonata" />
+      </a>
+    </section>
+
+    <section class="most-recently">
+      <div class="row">
+        <div class="col-2 position-relative">
+          <div class="most-recently-header">
+            <h4>
+              پرفــــروش <br />
+              ترین های
+              <br />
+              اخیـــــــــــر
+            </h4>
+          </div>
+          <div
+            id="recent-bestsellers-showall-btn"
+            class="most-recently-showall-btn"
+          >
+            <button class="digiBtn digiBtn-primary">مشاهده همه</button>
+          </div>
+        </div>
+        <div class="col-10">
+          <!-- start of row carousel -->
+          <div class="swipping-container d-flex">
+            <div
+              class="swiper-button-arrow sba-left"
+              id="recent-bestsellers-swipping-container-sba-left"
+            >
+              <!-- <i class="fa-solid fa-arrow-left row-swipper-arrow"></i> -->
+              <svg
+                width="60"
+                height="60"
+                enable-background="new 0 0 100 100"
+                version="1.1"
+                viewBox="0 0 100 100"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <polygon
+                  points="21.9,50.2 45.5,73.7 44,75.3 17.8,49.1 44,22.9 45.5,24.5 21.9,48 75.7,48 75.7,50.2 "
+                />
+              </svg>
+            </div>
+            <div
+              class="swiper-button-arrow sba-right"
+              id="recent-bestsellers-swipping-container-sba-right"
+            >
+              <!-- <i class="fa-solid fa-arrow-right row-swipper-arrow"></i> -->
+              <svg
+                width="60"
+                height="60"
+                enable-background="new 0 0 100 100"
+                version="1.1"
+                viewBox="0 0 100 100"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <polygon
+                  points="72.2,50.2 48.7,73.7 50.2,75.3 76.4,49.1 50.2,22.9 48.7,24.5 72.2,48 18.5,48 18.5,50.2 "
+                />
+              </svg>
+            </div>
+            <!-- start of product card  -->
+            <div class="product-card width4 recent-bestsellers-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 recent-bestsellers-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 recent-bestsellers-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 recent-bestsellers-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 recent-bestsellers-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+          </div>
+          <!-- end of row carousel  -->
+        </div>
+      </div>
+    </section>
+
+    <section id="the-most-popular-brands">
+      <div class="d-flex justify-content-between the-most-popular-brands mb-4">
+        <h3>محـبوبــ ترینـ برنـدها</h3>
+        <a href="#" class="link"
+          >مشاهده همه برندها
+          <svg
+            width="30"
+            height="30"
+            enable-background="new 0 0 100 100"
+            version="1.1"
+            viewBox="0 0 100 100"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <polygon
+              points="21.9,50.2 45.5,73.7 44,75.3 17.8,49.1 44,22.9 45.5,24.5 21.9,48 75.7,48 75.7,50.2 "
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="stripy">
+        <div class="row the-most-popular-brands brand-samples">
+          <div class="col-3 position-relative">
+            <img
+              class="brand-img"
+              src="./img/c4de965a9b8d773219a40c7d325f2ce6a7230993_1620822008.png"
+              alt="Nivea"
+            />
+            <a href="#" class="show-all-link link"
+              >مشاهده همه برندها
+              <svg
+                width="30"
+                height="30"
+                enable-background="new 0 0 100 100"
+                version="1.1"
+                viewBox="0 0 100 100"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <polygon
+                  points="21.9,50.2 45.5,73.7 44,75.3 17.8,49.1 44,22.9 45.5,24.5 21.9,48 75.7,48 75.7,50.2 "
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="col-9 d-flex">
+            <!-- start of product card  -->
+            <div class="product-card width2 the-most-popular-brands-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width2 the-most-popular-brands-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width2 the-most-popular-brands-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+          </div>
+        </div>
+        <div class="primary"></div>
+        <div class="white"></div>
+      </div>
+      <div class="stripy">
+        <div class="row the-most-popular-brands brand-samples">
+          <div class="col-9 d-flex">
+            <!-- start of product card  -->
+            <div class="product-card width2 the-most-popular-brands-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width2 the-most-popular-brands-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width2 the-most-popular-brands-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+          </div>
+          <div class="col-3 position-relative">
+            <img
+              class="brand-img"
+              src="./img/c4de965a9b8d773219a40c7d325f2ce6a7230993_1620822008.png"
+              alt="Nivea"
+            />
+            <a href="#" class="show-all-link link"
+              >مشاهده همه برندها
+              <svg
+                width="30"
+                height="30"
+                enable-background="new 0 0 100 100"
+                version="1.1"
+                viewBox="0 0 100 100"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <polygon
+                  points="21.9,50.2 45.5,73.7 44,75.3 17.8,49.1 44,22.9 45.5,24.5 21.9,48 75.7,48 75.7,50.2 "
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="primary"></div>
+        <div class="white"></div>
+      </div>
+    </section>
+    <section id="health-and-beauty">
+      <h3 class="pb-3">زیبـایــی و ســلـامــت</h3>
+      <div class="d-flex justify-content-between">
+        <a href="#">
+          <img
+            class="health-and-beauty"
+            src="./img/60percent.jpg"
+            alt="60percent"
+          />
+        </a>
+
+        <a href="#">
+          <img
+            class="health-and-beauty"
+            src="./img/50percent.jpg"
+            alt="50percent"
+          />
+        </a>
+        <a href="#">
+          <img
+            class="health-and-beauty"
+            src="./img/30percent.jpg"
+            alt="30percent"
+          />
+        </a>
+        <a href="#">
+          <img
+            class="health-and-beauty"
+            src="./img/35percent.jpg"
+            alt="35percent"
+          />
+        </a>
+      </div>
+    </section>
+
+    <section class="most-recently">
+      <div class="row">
+        <div class="col-2 position-relative">
+          <div class="most-recently-header">
+            <h4>
+              جـــــــدیــد <br />
+              ترین های
+              <br />
+              اخیـــــــــــر
+            </h4>
+          </div>
+          <div
+            id="the-most-recent-showall-btn"
+            class="most-recently-showall-btn"
+          >
+            <button class="digiBtn digiBtn-primary">مشاهده همه</button>
+          </div>
+        </div>
+        <div class="col-10">
+          <!-- start of row carousel -->
+          <div class="swipping-container d-flex">
+            <div
+              class="swiper-button-arrow sba-left"
+              id="the-most-recent-swipping-container-sba-left"
+            >
+              <!-- <i class="fa-solid fa-arrow-left row-swipper-arrow"></i> -->
+              <svg
+                width="60"
+                height="60"
+                enable-background="new 0 0 100 100"
+                version="1.1"
+                viewBox="0 0 100 100"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <polygon
+                  points="21.9,50.2 45.5,73.7 44,75.3 17.8,49.1 44,22.9 45.5,24.5 21.9,48 75.7,48 75.7,50.2 "
+                />
+              </svg>
+            </div>
+            <div
+              class="swiper-button-arrow sba-right"
+              id="the-most-recent-swipping-container-sba-right"
+            >
+              <!-- <i class="fa-solid fa-arrow-right row-swipper-arrow"></i> -->
+              <svg
+                width="60"
+                height="60"
+                enable-background="new 0 0 100 100"
+                version="1.1"
+                viewBox="0 0 100 100"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <polygon
+                  points="72.2,50.2 48.7,73.7 50.2,75.3 76.4,49.1 50.2,22.9 48.7,24.5 72.2,48 18.5,48 18.5,50.2 "
+                />
+              </svg>
+            </div>
+            <!-- start of product card  -->
+            <div class="product-card width4 the-most-recent-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 the-most-recent-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 the-most-recent-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 the-most-recent-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 the-most-recent-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+          </div>
+          <!-- end of row carousel  -->
+        </div>
+      </div>
+    </section>
+
+    <section id="iranian-designers">
+      <div class="d-flex justify-content-between mb-4">
+        <h3>طــراحـانــ ایـــرانـی</h3>
+        <a href="#" class="link"
+          >مشاهده خانه طراحان ایرانی
+          <svg
+            width="30"
+            height="30"
+            enable-background="new 0 0 100 100"
+            version="1.1"
+            viewBox="0 0 100 100"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <polygon
+              points="21.9,50.2 45.5,73.7 44,75.3 17.8,49.1 44,22.9 45.5,24.5 21.9,48 75.7,48 75.7,50.2 "
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="d-flex">
+        <div id="designers-list">
+          <ul>
+            <a href="#">
+              <li>دالاوین</li>
+            </a>
+            <a href="#">
+              <li>ریس</li>
+            </a>
+            <a href="#">
+              <li>دگرمان</li>
+            </a>
+            <a href="#">
+              <li class="selected">گری</li>
+            </a>
+            <a href="#">
+              <li>کوی</li>
+            </a>
+            <a href="#">
+              <li>ان سی نو</li>
+            </a>
+          </ul>
+        </div>
+        <div>
+          <div class="d-flex">
+            <div>
+              <a href="#">
+                <img
+                  id="designer-style"
+                  src="./img/iranian-designers/gray.jpg"
+                  alt="gray"
+                />
+              </a>
+            </div>
+
+            <div
+              class="iranian-designers-product-sample d-flex align-items-center"
+            >
+              <a href="#">
+                <img
+                  id="iranian-designers-product-sample1"
+                  src="./img/iranian-designers/hat-removebg-preview.png"
+                  alt="white hat"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between">
+            <div
+              class="iranian-designers-product-sample d-flex align-items-center"
+            >
+              <a href="#">
+                <img
+                  id="iranian-designers-product-sample2"
+                  src="./img/iranian-designers/hat-black-removebg-preview.png"
+                  alt="black hat"
+                />
+              </a>
+            </div>
+            <div
+              class="iranian-designers-product-sample d-flex align-items-center"
+            >
+              <a href="#">
+                <img
+                  id="iranian-designers-product-sample3"
+                  src="./img/iranian-designers/shalvar-removebg-preview.png"
+                  alt="jeans"
+                />
+              </a>
+            </div>
+            <div
+              class="iranian-designers-product-sample d-flex align-items-center"
+            >
+              <a href="#">
+                <img
+                  id="iranian-designers-product-sample4"
+                  src="./img/iranian-designers/hat-more-black-removebg-preview.png"
+                  alt="more black hat"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="offs" class="d-flex">
+      <div>
+        <a href="#">
+          <img
+            class="d-block"
+            id="women-sandals"
+            src="./img/sandal-zanane.jpg"
+            alt="صندل زنانه"
+          />
+        </a>
+        <a href="#">
+          <img
+            id="sport-shoes"
+            src="./img/kafshe-varzeshi.jpg"
+            alt="کفش ورزشی"
+          />
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <img
+            id="women-blouses"
+            src="./img/boluz-shumiz-zanane.jpg"
+            alt="بلوز و شومیز زنانه"
+          />
+        </a>
+        <div class="d-flex justify-content-between">
+          <a href="#">
+            <img
+              id="children-clothes"
+              src="./img/lebas-bachegane.jpg"
+              alt="لباس بچگانه"
+            />
+          </a>
+          <a href="#">
+            <img id="glasses" src="./img/eynaks.jpg" alt="عینک" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="week-style">
+      <div id="week-style-header" class="d-flex justify-content-between">
+        <h3>اســتـایلـــ هـفتــه</h3>
+        <button class="digiBtn digiBtn-primary">خرید همه</button>
+      </div>
+      <div id="week-style-body" class="d-flex">
+        <img id="style-img" src="./img/week-style.jpg" alt="week style" />
+        <!-- start of swipping container  -->
+        <div class="swipping-container d-flex">
+          <div
+            class="swiper-button-arrow sba-left"
+            id="week-style-swipping-container-sba-left"
+          >
+            <svg
+              width="60"
+              height="60"
+              enable-background="new 0 0 100 100"
+              version="1.1"
+              viewBox="0 0 100 100"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <polygon
+                points="21.9,50.2 45.5,73.7 44,75.3 17.8,49.1 44,22.9 45.5,24.5 21.9,48 75.7,48 75.7,50.2 "
+              />
+            </svg>
+          </div>
+          <div
+            class="swiper-button-arrow sba-right"
+            id="week-style-swipping-container-sba-right"
+          >
+            <svg
+              width="60"
+              height="60"
+              enable-background="new 0 0 100 100"
+              version="1.1"
+              viewBox="0 0 100 100"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <polygon
+                points="72.2,50.2 48.7,73.7 50.2,75.3 76.4,49.1 50.2,22.9 48.7,24.5 72.2,48 18.5,48 18.5,50.2 "
+              />
+            </svg>
+          </div>
+          <!-- start of product card  -->
+          <div class="product-card width1 week-style-Pcard">
+            <span class="brand">اسپیور</span>
+
+            <div class="image py-5">
+              <span class="off"><div>۵۱٪</div></span>
+              <img
+                src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                alt="تصویر محصول"
+              />
+            </div>
+
+            <!-- start of product name & rank -->
+            <div class="d-flex justify-content-between mt-3 row">
+              <h6 class="name col-10">
+                کفش پیاده روی پاما کد 01 مدل
+                SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+              </h6>
+              <div class="rank d-flex col-2 justify-content-end">
+                ۴.۴
+                <i class="fa-regular fa-star ps-1"></i>
+              </div>
+            </div>
+            <!-- end of of product name & rank -->
+
+            <!-- start of product price  -->
+            <div class="d-flex justify-content-end align-items-center py-1">
+              <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+              <div class="current-price">۱,۱۱۲,۰۰۰</div>
+              <div class="ps-1">تومان</div>
+            </div>
+            <!-- end of product price  -->
+          </div>
+          <!-- end of product card  -->
+          <!-- start of product card  -->
+          <div class="product-card width1 week-style-Pcard">
+            <span class="brand">اسپیور</span>
+
+            <div class="image py-5">
+              <span class="off"><div>۵۱٪</div></span>
+              <img
+                src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                alt="تصویر محصول"
+              />
+            </div>
+
+            <!-- start of product name & rank -->
+            <div class="d-flex justify-content-between mt-3 row">
+              <h6 class="name col-10">
+                کفش پیاده روی پاما کد 01 مدل
+                SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+              </h6>
+              <div class="rank d-flex col-2 justify-content-end">
+                ۴.۴
+                <i class="fa-regular fa-star ps-1"></i>
+              </div>
+            </div>
+            <!-- end of of product name & rank -->
+
+            <!-- start of product price  -->
+            <div class="d-flex justify-content-end align-items-center py-1">
+              <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+              <div class="current-price">۱,۱۱۲,۰۰۰</div>
+              <div class="ps-1">تومان</div>
+            </div>
+            <!-- end of product price  -->
+          </div>
+          <!-- end of product card  -->
+          <!-- start of product card  -->
+          <div class="product-card width1 week-style-Pcard">
+            <span class="brand">اسپیور</span>
+
+            <div class="image py-5">
+              <span class="off"><div>۵۱٪</div></span>
+              <img
+                src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                alt="تصویر محصول"
+              />
+            </div>
+
+            <!-- start of product name & rank -->
+            <div class="d-flex justify-content-between mt-3 row">
+              <h6 class="name col-10">
+                کفش پیاده روی پاما کد 01 مدل
+                SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+              </h6>
+              <div class="rank d-flex col-2 justify-content-end">
+                ۴.۴
+                <i class="fa-regular fa-star ps-1"></i>
+              </div>
+            </div>
+            <!-- end of of product name & rank -->
+
+            <!-- start of product price  -->
+            <div class="d-flex justify-content-end align-items-center py-1">
+              <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+              <div class="current-price">۱,۱۱۲,۰۰۰</div>
+              <div class="ps-1">تومان</div>
+            </div>
+            <!-- end of product price  -->
+          </div>
+          <!-- end of product card  -->
+          <!-- start of product card  -->
+          <div class="product-card width1 week-style-Pcard">
+            <span class="brand">اسپیور</span>
+
+            <div class="image py-5">
+              <span class="off"><div>۵۱٪</div></span>
+              <img
+                src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                alt="تصویر محصول"
+              />
+            </div>
+
+            <!-- start of product name & rank -->
+            <div class="d-flex justify-content-between mt-3 row">
+              <h6 class="name col-10">
+                کفش پیاده روی پاما کد 01 مدل
+                SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+              </h6>
+              <div class="rank d-flex col-2 justify-content-end">
+                ۴.۴
+                <i class="fa-regular fa-star ps-1"></i>
+              </div>
+            </div>
+            <!-- end of of product name & rank -->
+
+            <!-- start of product price  -->
+            <div class="d-flex justify-content-end align-items-center py-1">
+              <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+              <div class="current-price">۱,۱۱۲,۰۰۰</div>
+              <div class="ps-1">تومان</div>
+            </div>
+            <!-- end of product price  -->
+          </div>
+          <!-- end of product card  -->
+          <!-- start of product card  -->
+          <div class="product-card width1 week-style-Pcard">
+            <span class="brand">اسپیور</span>
+
+            <div class="image py-5">
+              <span class="off"><div>۵۱٪</div></span>
+              <img
+                src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                alt="تصویر محصول"
+              />
+            </div>
+
+            <!-- start of product name & rank -->
+            <div class="d-flex justify-content-between mt-3 row">
+              <h6 class="name col-10">
+                کفش پیاده روی پاما کد 01 مدل
+                SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+              </h6>
+              <div class="rank d-flex col-2 justify-content-end">
+                ۴.۴
+                <i class="fa-regular fa-star ps-1"></i>
+              </div>
+            </div>
+            <!-- end of of product name & rank -->
+
+            <!-- start of product price  -->
+            <div class="d-flex justify-content-end align-items-center py-1">
+              <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+              <div class="current-price">۱,۱۱۲,۰۰۰</div>
+              <div class="ps-1">تومان</div>
+            </div>
+            <!-- end of product price  -->
+          </div>
+          <!-- end of product card  -->
+        </div>
+        <!-- end of swipping container  -->
+      </div>
+      <div id="background-border"></div>
+    </section>
+    <section class="most-recently">
+      <div class="row">
+        <div class="col-2 position-relative">
+          <div class="most-recently-header">
+            <h4>
+              بازدیدهای <br />
+              اخــیـــــــــر
+              <br />
+              شـــــــــــمـا
+            </h4>
+          </div>
+          <div
+            id="your-recent-visits-showall-btn"
+            class="most-recently-showall-btn"
+          >
+            <button class="digiBtn digiBtn-primary">مشاهده همه</button>
+          </div>
+        </div>
+        <div class="col-10">
+          <!-- start of row carousel -->
+          <div class="swipping-container d-flex">
+            <div
+              class="swiper-button-arrow sba-left"
+              id="your-recent-visits-swipping-container-sba-left"
+            >
+              <!-- <i class="fa-solid fa-arrow-left row-swipper-arrow"></i> -->
+              <svg
+                width="60"
+                height="60"
+                enable-background="new 0 0 100 100"
+                version="1.1"
+                viewBox="0 0 100 100"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <polygon
+                  points="21.9,50.2 45.5,73.7 44,75.3 17.8,49.1 44,22.9 45.5,24.5 21.9,48 75.7,48 75.7,50.2 "
+                />
+              </svg>
+            </div>
+            <div
+              class="swiper-button-arrow sba-right"
+              id="your-recent-visits-swipping-container-sba-right"
+            >
+              <!-- <i class="fa-solid fa-arrow-right row-swipper-arrow"></i> -->
+              <svg
+                width="60"
+                height="60"
+                enable-background="new 0 0 100 100"
+                version="1.1"
+                viewBox="0 0 100 100"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <polygon
+                  points="72.2,50.2 48.7,73.7 50.2,75.3 76.4,49.1 50.2,22.9 48.7,24.5 72.2,48 18.5,48 18.5,50.2 "
+                />
+              </svg>
+            </div>
+            <!-- start of product card  -->
+            <div class="product-card width4 your-recent-visits-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 your-recent-visits-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 your-recent-visits-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 your-recent-visits-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+            <!-- start of product card  -->
+            <div class="product-card width4 your-recent-visits-Pcard">
+              <span class="brand">اسپیور</span>
+
+              <div class="image py-5">
+                <span class="off"><div>۵۱٪</div></span>
+                <img
+                  src="./img/shegeftAviz/6e4fdba903bbc7d87f515906bd846f3931f379d0_1636273200-removebg-preview.png"
+                  alt="تصویر محصول"
+                />
+              </div>
+
+              <!-- start of product name & rank -->
+              <div class="d-flex justify-content-between mt-3 row">
+                <h6 class="name col-10">
+                  کفش پیاده روی پاما کد 01 مدل
+                  SDDFDKDFDFSDFDFDFDSFDSFDFDFSFSFSFSFDFD
+                </h6>
+                <div class="rank d-flex col-2 justify-content-end">
+                  ۴.۴
+                  <i class="fa-regular fa-star ps-1"></i>
+                </div>
+              </div>
+              <!-- end of of product name & rank -->
+
+              <!-- start of product price  -->
+              <div class="d-flex justify-content-end align-items-center py-1">
+                <div class="deleted-price me-2"><del> ۲,۱۶۰,۰۰۰ </del></div>
+                <div class="current-price">۱,۱۱۲,۰۰۰</div>
+                <div class="ps-1">تومان</div>
+              </div>
+              <!-- end of product price  -->
+            </div>
+            <!-- end of product card  -->
+          </div>
+          <!-- end of row carousel  -->
+        </div>
+      </div>
+    </section>
+    <section id="digiStyle-in-digiMag" class="d-flex justify-content-between">
+      <div class="digiMag-card">
+        <a href="#">
+          <img
+            src="./img/digistyle in digimag/what-is-dress-code-300x195.jpg"
+            alt=""
+          />
+          <h6>هرآنچه باید درباره‌ی کد پوشش یا Dress Code بدانید</h6>
+          <p>
+            احتمالا واژه‌ی Dress Code به گوشتان خورده باشد. بسیاری از ما بدون
+            این که دقیقا با مفهوم Dress Code، قوانین پوشش و یا «کدهای پوششی»
+            آشنا باشیم، آن را در موقعیت‌های مختلف رعایت می‌کنیم؛ به عنوان مثال
+            برای رفتن به یک دیدار دوستانه مانتوی اداری نمی‌پوشیم و یا در
+            مهمانی‌ها و موقعیت‌های رسمی با استایلی ...
+          </p>
+        </a>
+      </div>
+      <div class="digiMag-card">
+        <a href="#">
+          <img src="./img/digistyle in digimag/BodySeries-300x195.jpg" alt="" />
+          <h6>۱۲ فرم مختلف بدن زنان و لباس مناسب برای هر کدام</h6>
+          <p>
+            گونه‌های مختلفی برای فرم بدن زنان وجود دارد که هرکدام از آنها در نوع
+            خود زیبا هستند. شکل بدن با ساختار استخوان، ژن‌ها، سن، توزیع چربی،
+            توده عضلانی و سبک زندگی تعیین
+          </p>
+        </a>
+      </div>
+      <div class="digiMag-card">
+        <a href="#">
+          <img
+            src="./img/digistyle in digimag/makeup-photography-1-300x195.jpg"
+            alt=""
+          />
+          <h6>
+            آرایش مناسب عکاسی؛ هر آنچه باید در مورد یک آرایش بی‌نقص بدانید
+          </h6>
+          <p>
+            اگر خودتان را برای یک مراسم عروسی آماده می‌کنید یا قرار است به آتلیه
+            بروید و چند عکس از رویداد خاصی در زندگی خود ثبت کنید، احتمالا یکی از
+            دغدغه‌های شما آرایش مناسب عکاسی است. آرایش مناسب عکاسی اصول و قواعد
+            خاص خود را دارد و با آرایش روزمره‌ی شما متفاوت است. برای دانستن نکات
+            ...
+          </p>
+        </a>
+      </div>
+      <div class="digiMag-card">
+        <a href="#">
+          <img
+            src="./img/digistyle in digimag/different-types-of-scarves-300x195.jpg"
+            alt=""
+          />
+          <h6>۱۳ جنس مختلف شال و روسری و کاربردهای آن‌ها</h6>
+          <p>
+            شال جزو اکسسوری‌هایی است که به دلیل زیبایی و کاربردی بودن باید حتما
+            در کمد لباس همه‌ی خانم‌ها وجود داشته باشد. در این مطلب قصد داریم
+          </p>
+        </a>
+      </div>
+    </section>
+    <section id="gift-cards">
+      <a href="#">
+        <img src="./img/giftcards.png" alt="gift cards" />
+      </a>
+    </section>
+    <section
+      id="footer-menu-lists"
+      class="m-x-15 m-b-6 d-flex justify-content-between"
+    >
+      <div>
+        <a href="#">
+          <h6>مردانه</h6>
+        </a>
+        <ul class="footer-menu-list">
+          <a href="#">
+            <li>لباس مردانه</li>
+          </a>
+          <a href="#">
+            <li>کفش مردانه</li>
+          </a>
+          <a href="#">
+            <li>اکسسوری مردانه</li>
+          </a>
+          <a href="#">
+            <li>ورزشی مردانه</li>
+          </a>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <a href="#">
+            <h6>زنانه</h6>
+          </a>
+          <a href="#">
+            <li>لباس زنانه</li>
+          </a>
+          <a href="#">
+            <li>کفش زنانه</li>
+          </a>
+          <a href="#">
+            <li>اکسسوری زنانه</li>
+          </a>
+          <a href="#">
+            <li>ورزشی زنانه</li>
+          </a>
+        </ul>
+      </div>
+      <div>
+        <a href="#">
+          <h6>بچگانه</h6>
+        </a>
+        <ul>
+          <a href="#">
+            <li>نوزاد</li>
+          </a>
+          <a href="#">
+            <li>دخترانه</li>
+          </a>
+          <a href="#">
+            <li>پسرانه</li>
+          </a>
+        </ul>
+      </div>
+      <div>
+        <a href="#">
+          <h6>زیبایی و سلامت</h6>
+        </a>
+        <ul>
+          <a href="#">
+            <li>لوازم آرایشی</li>
+          </a>
+          <a href="#">
+            <li>لوازم بهداشتی</li>
+          </a>
+          <a href="#">
+            <li>لوازم شخصی برقی</li>
+          </a>
+          <a href="#">
+            <li>عطر و ادکلن</li>
+          </a>
+          <a href="#">
+            <li>ابزار سلامت</li>
+          </a>
+        </ul>
+      </div>
+    </section>
+    <section
+      id="footer-delivery"
+      class="m-x-15 m-b-6 d-flex justify-content-between"
+    >
+      <div><h4>تحویل سریع و آسان</h4></div>
+      <div><h4>۱۴ روز ضمانت بازگشت کالا</h4></div>
+      <div><h4>ضمانت اصل بودن کالا</h4></div>
+    </section>
+    <section id="DIGISTYLE-footer" class="m-x-6">
+      <div class="d-flex">
+        <h2>DIGISTYLE</h2>
+        <div id="footer-logo-line" class="m-x-6"></div>
+      </div>
+      <div class="pt-3 d-flex justify-content-between">
+        <div>
+          <h6>خرید</h6>
+          <ul>
+            <a href="#">
+              <li>زنانه</li>
+            </a>
+            <a href="#">
+              <li>مردانه</li>
+            </a>
+            <a href="#">
+              <li>بچگانه</li>
+            </a>
+            <a href="#">
+              <li>زیبایی و سلامت</li>
+            </a>
+          </ul>
+        </div>
+        <div>
+          <h6>خدمات مشتریان</h6>
+          <ul>
+            <a href="#">
+              <li>پاسخ به پرسش‌های متداول</li>
+            </a>
+            <a href="#">
+              <li>رویه‌های بازگرداندن کالا</li>
+            </a>
+            <a href="#">
+              <li>شرایط استفاده</li>
+            </a>
+            <a href="#">
+              <li>حریم خصوصی</li>
+            </a>
+          </ul>
+        </div>
+        <div>
+          <h6>اطلاعات دیجی‌استایل</h6>
+          <ul>
+            <a href="#">
+              <li>درباره دیجی‌استایل</li>
+            </a>
+            <a href="#">
+              <li>تماس با دیجی‌استایل</li>
+            </a>
+            <a href="#">
+              <li>همکاری با دیجی‌استایل</li>
+            </a>
+          </ul>
+        </div>
+        <div>تلفن پشتیبانی:
+          
+        </div>
+      </div>
+      <div id="get-digi-app" class="d-flex justify-content-between">
+        <h6>دانلود اپلیکیشن دیجی‌استایل</h6>
+        <div>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.digistyle.gp&metrix_token=qni7jr&metrix_user_id=19bb92c8-18e4-45be-9a99-df9dc8b3b48e&utm_source=googleplay&utm_campaign=home_page"
+          >
+            <img src="./img/googleplay.png" alt="" />
+          </a>
+          <a
+            href="https://cafebazaar.ir/app/com.digistyle.prod?metrix_token=19tmjc&metrix_user_id=19bb92c8-18e4-45be-9a99-df9dc8b3b48e&utm_source=cafebazaar&utm_campaign=home_page"
+          >
+            <img src="/img/bazar.png" alt="" />
+          </a>
+          <a
+            href="https://myket.ir/app/com.digistyle.prod?utm_source=myket&utm_campaign=home_page"
+          >
+            <img src="/img/mycket.png" alt="" />
+          </a>
+          <a
+            href="https://sibapp.com/applications/digistyle?metrix_token=i2xjdu&metrix_user_id=19bb92c8-18e4-45be-9a99-df9dc8b3b48e&utm_source=ios&utm_campaign=home_page"
+          >
+            <img src="./img/sibapp.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about-digiStyle" class="m-x-6 d-flex justify-content-between">
+      <div class="pe-4">
+        <h6>فروشگاه اینترنتی مد و لباس دیجی‌استایل</h6>
+        <p>
+          دیجی‌استایل، پس از تجربه‌ی موفق فروشگاه اینترنتی دیجی‌کالا به صورت
+          تخصصی پا به عرصه مد، پوشاک و سبک زندگی گذاشت تا همان تجربه‌ی شیرین، در
+          قالبی نو تکرار شود. در دیجی ‌استایل می‌توانید همه آنچه مرتبط با مد و
+          پوشاک از انواع لباس زنانه، لباس مردانه و لباس بچگانه گرفته تا کیف و
+          کفش و اکسسوری را با تخفیف ویژه در حراج ها، پیدا کنید و به سادگی یک ست
+          کامل از جدیدترین‌ برندهای معتبر را بخرید. در دیجی استایل برندهای
+          ایرانی مشهوری نظیر چرم مشهد، درسا، کفش ملی، کفش شیما، شیفر، چرم کروکو،
+          مارال چرم، بادی اسپینر، ال سی من، پاتن جامه، تن درست، زیبو، زی، کیکی
+          رایکی، نیکتا و ... برندهای خارجی نظیر دیور (Dior)، آلدو (Aldo)، آندر
+          آرمور (Under Armour)، نایکی (Nike)، اسکچرز (Skechers)، ریباک (Reebok)،
+          سالامون (Salomon)، ری بن (Rey Ban)، ال سی وایکیکی (LC Waikiki)، پوما
+          (Puma)، دنیلی (Daniellee) و... موجود است و می توانید جدیدترین محصولات
+          این برندها رو به صورت آنلاین تهیه کنید و به راحتی درب منزل تحویل
+          بگیرید. همچنان دیجی استایل با ورود به دنیای زیبایی و سلامت انواع عطر و
+          ادکلن، لوازم آرایش چشم و ابرو، آرایش صورت، لوازم شخصی برقی، بهداشت و
+          زیبایی ناخن، ابزار سلامت و ... را در اختیار مشتریان قرار داده تا
+          بتوانند از محصولات اورجینال و اصل خریداری کنند و در صورت مغایرت کالا
+          تا 14 روز امکان بازگشت کالا را وجود دارد. پس همین حالا برای خرید انواع
+          رنگ مو، سشوار، پنکیک، ماسک صورت، خط چشم، لاک ناخن، ادکلن، کانسیلر،
+          شامپو، سایه ابرو و سایه چشم به فروشگاه اینترنتی دیجی استایل مراجعه
+          کنید و تنها با چند کلیک محصول مورد نظر خود را سفارش دهید.
+        </p>
+        <a href="#" class="link">
+          مشاهده بیشتر
+          <svg
+            width="20"
+            height="20"
+            enable-background="new 0 0 100 100"
+            version="1.1"
+            viewBox="0 0 100 100"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <polygon
+              points="21.9,50.2 45.5,73.7 44,75.3 17.8,49.1 44,22.9 45.5,24.5 21.9,48 75.7,48 75.7,50.2 "
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="d-flex justify-content-between">
+        <div
+          class="footer-trust-symbol me-3 d-flex justify-content-center align-items-center"
+        >
+          <a
+            href="https://logo.samandehi.ir/Verify.aspx?id=196389&p=rfthpfvlgvkaxlaomcsipfvl"
+          >
+            <img src="./img/samandehi.png" alt="" />
+          </a>
+        </div>
+        <div
+          class="footer-trust-symbol me-3 d-flex justify-content-center align-items-center"
+        >
+          <a
+            href="https://ecunion.ir/verify/digistyle.com?token=39700255acf0232a790c"
+          >
+            <img src="./img/etehadie.png" alt="" />
+          </a>
+        </div>
+        <div
+          class="footer-trust-symbol d-flex justify-content-center align-items-center"
+        >
+          <a
+            href="https://trustseal.enamad.ir/Verify.aspx?id=40845&p=odshdrfsaqgwodshyncr"
+          >
+            <img src="./img/tejarat-elec.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="copyright" class="m-x-6 d-flex justify-content-between">
+      <div>
+        <p>
+          کليه حقوق اين سايت متعلق به شرکت نوآوران فن آوازه (فروشگاه اینترنتی
+          دیجی‌استایل) می‌باشد.
+        </p>
+      </div>
+      <div><p>digistyle.com - 2022 © Copyright</p></div>
+    </section>
+    <a style="display: none" href="http://www.onlinewebfonts.com"
+      >oNline Web Fonts</a
+    >
+    <a style="display: none" href="https://pngtree.com/so/Vector"
+      >Vector png from pngtree.com/</a
+    >
+    <!-- <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a> -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <script src="./productCard.js"></script>
+    <script src="./suggestion-productCard.js"></script>
+    <script src="./SwippingContainer.js"></script>
+    <script src="./topCarousel.js"></script>
+    <script src="./headerNavbar.js"></script>
+    <script src="./app.js"></script>
+    <script src="./tab-visual-category-menu.js"></script>
+  </body>
+</html>

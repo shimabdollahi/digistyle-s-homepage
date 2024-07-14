@@ -1,0 +1,35 @@
+/* for max-width:768  sm,xsm */
+.incredible-suggestion-card{
+    background-color: #fff;
+    padding: 1vw;
+    width: 42vw;
+    padding-bottom: 25px;
+    margin-left: 25px;
+    /* transform: translateX(0vw); */
+    transition: 0.8s;
+}
+.incredible-suggestion-header{
+    color: #f04d7d;
+    width: 40vw;
+    font-size: 13px;
+    font-weight: 700;
+}
+.ShegeftAvizTimer{
+    font-size: 14px;
+    font-weight: 400;
+}
+@media only screen and (min-width: 768px) {
+    .incredible-suggestion-card{
+        padding: 0.9vw;
+        width: 22.3vw;
+        padding-bottom: 1.2vw;
+        margin-left: 1.75vw;
+    }
+    .incredible-suggestion-header{
+        width:20.5vw;
+        font-size: 0.9vw;
+    }
+    .ShegeftAvizTimer{
+        font-size: 1.1vw;    
+    }
+}
